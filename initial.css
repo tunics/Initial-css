@@ -13,16 +13,24 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: normal;
 }
 
-ol, ul {
-  list-style: none;
-}
-
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
 
+button, input, optgroup, select, textarea {
+  font-family: inherit; 
+  font-size: 100%;
+  margin: 0;
+}
+
 /* Acessibility */
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
 
 .visually-hide { /* visually hide element but maintain readable for screen readers */
   border: 0;
